@@ -9,27 +9,20 @@
 
 ## 📸 Showcase / Screenshots
 
-
-> *Login Page*
-><img width="1467" height="829" alt="image" src="https://github.com/user-attachments/assets/1a3729b8-382f-4e0b-aff3-d611510c907f" />
-
-> *Main Feed (Home Page)*
-><img width="1470" height="799" alt="image" src="https://github.com/user-attachments/assets/c3a6258e-05ec-424b-a6a7-de3c32df2920" />
-
-> *Real time notifications (Notifications Page)*
-><img width="1469" height="827" alt="image" src="https://github.com/user-attachments/assets/dff227b4-65f3-4518-aa22-b4308685b884" />
-
-> *User Profile (Profile Page)*
-><img width="1469" height="832" alt="image" src="https://github.com/user-attachments/assets/c6713885-e4a1-4ac7-8cf3-d31a95d6979b" />
-
-> *Creating a post*
-><img width="1469" height="836" alt="image" src="https://github.com/user-attachments/assets/95946544-62d4-485c-af67-17608ca56c6a" />
-
-
-> *Dark Mode*
-><img width="1470" height="832" alt="image" src="https://github.com/user-attachments/assets/aa1cb9b3-4f56-4fcf-892b-8c1ac63aa273" />
-
-
+<table>
+  <tr>
+    <td align="center"><b>Login Page</b><br/><img src="https://github.com/user-attachments/assets/1a3729b8-382f-4e0b-aff3-d611510c907f" width="480"/></td>
+    <td align="center"><b>Main Feed</b><br/><img src="https://github.com/user-attachments/assets/c3a6258e-05ec-424b-a6a7-de3c32df2920" width="480"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Notifications</b><br/><img src="https://github.com/user-attachments/assets/dff227b4-65f3-4518-aa22-b4308685b884" width="480"/></td>
+    <td align="center"><b>User Profile</b><br/><img src="https://github.com/user-attachments/assets/c6713885-e4a1-4ac7-8cf3-d31a95d6979b" width="480"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Creating a Post</b><br/><img src="https://github.com/user-attachments/assets/95946544-62d4-485c-af67-17608ca56c6a" width="480"/></td>
+    <td align="center"><b>Dark Mode</b><br/><img src="https://github.com/user-attachments/assets/aa1cb9b3-4f56-4fcf-892b-8c1ac63aa273" width="480"/></td>
+  </tr>
+</table>
 
 
 
