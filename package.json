@@ -1,12 +1,12 @@
 {
-  "name": "chirp",
+  "name": "haven",
   "version": "1.0.0",
-  "description": "Chirp - A calm social media platform",
+  "description": "Haven - A calm social media platform",
   "scripts": {
-    "install-all": "npm install --prefix backend && npm install --prefix frontend",
-    "dev:backend": "npm run dev --prefix backend",
-    "dev:frontend": "npm run dev --prefix frontend",
-    "dev": "npm run dev:backend & npm run dev:frontend",
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npm run dev:server & npm run dev:client",
     "install": "npm run install-all"
   }
 }
