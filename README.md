@@ -146,5 +146,3 @@ chirp_social_media_app/
 
 ---
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/himasree-d/chirp_social_media_app/issues).
