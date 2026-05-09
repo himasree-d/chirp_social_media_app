@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- You can replace this with an actual logo or banner image -->
-  <img src="https://via.placeholder.com/800x200?text=Chirp+Social+Platform" alt="Chirp Banner" />
+  <img width="164" height="53" alt="image" src="https://github.com/user-attachments/assets/51e8be26-6287-471e-be15-2312832d49a4" />
 
   <h1>Chirp - Social Media Platform</h1>
   <p>A premium, real-time social platform built with the MERN stack and Socket.io. Designed with a calming aesthetic and smooth user experiences.</p>
@@ -10,32 +9,47 @@
 
 ## 📸 Showcase / Screenshots
 
-*Add screenshots of your application here to show off your UI! Replace the placeholder links with your actual image paths.*
 
-| Login & Authentication | The Main Feed |
-| :---: | :---: |
-| <img src="https://via.placeholder.com/400x250?text=Login+Page" alt="Login Screenshot" /> | <img src="https://via.placeholder.com/400x250?text=Main+Feed" alt="Feed Screenshot" /> |
+> *Login Page*
+><img width="1467" height="829" alt="image" src="https://github.com/user-attachments/assets/1a3729b8-382f-4e0b-aff3-d611510c907f" />
 
-| Real-time Notifications | User Profile & Customization |
-| :---: | :---: |
-| <img src="https://via.placeholder.com/400x250?text=Notifications" alt="Notifications" /> | <img src="https://via.placeholder.com/400x250?text=User+Profile" alt="Profile" /> |
+> *Main Feed (Home Page)*
+><img width="1470" height="799" alt="image" src="https://github.com/user-attachments/assets/c3a6258e-05ec-424b-a6a7-de3c32df2920" />
+
+> *Real time notifications (Notifications Page)*
+><img width="1469" height="827" alt="image" src="https://github.com/user-attachments/assets/dff227b4-65f3-4518-aa22-b4308685b884" />
+
+> *User Profile (Profile Page)*
+><img width="1469" height="832" alt="image" src="https://github.com/user-attachments/assets/c6713885-e4a1-4ac7-8cf3-d31a95d6979b" />
+
+> *Creating a post*
+><img width="1469" height="836" alt="image" src="https://github.com/user-attachments/assets/95946544-62d4-485c-af67-17608ca56c6a" />
+
+
+> *Dark Mode*
+><img width="1470" height="832" alt="image" src="https://github.com/user-attachments/assets/aa1cb9b3-4f56-4fcf-892b-8c1ac63aa273" />
+
+
+
+
+
 
 ---
 
-## ✨ Features
+##  Features
 
-- **🔐 Secure Authentication**: Robust JWT-based user login, registration, and session management.
-- **📰 Personalized Feed**: Algorithm-free feed showing posts exclusively from users you follow.
-- **⚡ Real-time Interactions**: Live notifications, instant messaging, and real-time feed updates powered by Socket.io.
-- **🖼️ Media Uploads**: Seamless and optimized image uploads managed securely via Cloudinary.
-- **💬 Interactive Posts**: Engage with content by liking, commenting, and saving posts to your personal collection.
-- **👤 Profile Customization**: Edit your avatar, update your bio, and manage your followers/following lists.
-- **📱 Responsive Design**: Fully responsive, mobile-first design built with Tailwind CSS, ensuring smooth scaling across all devices.
-- **🎨 Premium UI/UX**: Fluid animations (Framer Motion) and a carefully crafted color palette (warm neutrals, moss green).
+- ** Secure Authentication**: Robust JWT-based user login, registration, and session management.
+- ** Personalized Feed**: Algorithm-free feed showing posts exclusively from users you follow.
+- ** Real-time Interactions**: Live notifications, instant messaging, and real-time feed updates powered by Socket.io.
+- ** Media Uploads**: Seamless and optimized image uploads managed securely via Cloudinary.
+- ** Interactive Posts**: Engage with content by liking, commenting, and saving posts to your personal collection.
+- ** Profile Customization**: Edit your avatar, update your bio, and manage your followers/following lists.
+- ** Responsive Design**: Fully responsive, mobile-first design built with Tailwind CSS, ensuring smooth scaling across all devices.
+- ** Premium UI/UX**: Fluid animations (Framer Motion) and a carefully crafted color palette (warm neutrals, moss green).
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework**: React 19 + Vite
@@ -54,7 +68,7 @@
 
 ---
 
-## 🚀 Local Setup Instructions
+##  Local Setup Instructions
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -110,7 +124,7 @@ This single command will spin up:
 
 ## 📁 Project Structure
 
-\`\`\`text
+```
 chirp_social_media_app/
 ├── client/                 # React Frontend (Vite)
 │   ├── src/
@@ -128,7 +142,7 @@ chirp_social_media_app/
 │   └── server.js           # Express app & Socket.io initialization
 ├── jsp/                    # Legacy Java Server Page (public profile)
 └── package.json            # Root configuration and concurrent scripts
-\`\`\`
+```
 
 ---
 
