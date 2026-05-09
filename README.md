@@ -1,73 +1,136 @@
-# Chirp - Social Media Platform
+<div align="center">
+  <!-- You can replace this with an actual logo or banner image -->
+  <img src="https://via.placeholder.com/800x200?text=Chirp+Social+Platform" alt="Chirp Banner" />
 
-Chirp is a premium, real-time social platform built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. It focuses on a clean aesthetic (warm neutrals, moss green) and smooth user experiences.
+  <h1>Chirp - Social Media Platform</h1>
+  <p>A premium, real-time social platform built with the MERN stack and Socket.io. Designed with a calming aesthetic and smooth user experiences.</p>
+</div>
 
-## Features
-- **Secure Authentication**: JWT-based user login and registration.
-- **Personalized Feed**: View posts exclusively from users you follow.
-- **Real-time Interactions**: Live notifications and instant updates via Socket.io.
-- **Media Uploads**: Seamless image uploads powered by Cloudinary.
-- **Interactive Posts**: Like, comment, and save posts to your profile.
-- **Profile Customization**: Edit your avatar, bio, and manage your followers/following.
-- **Responsive Design**: fully optimized for desktop and mobile devices.
+---
 
-## Tech Stack
-- **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Real-time**: Socket.io
-- **Media Storage**: Cloudinary
+## 📸 Showcase / Screenshots
 
-## Prerequisites
-To run this project locally, you will need:
-- Node.js (v18+)
-- MongoDB (running locally on port `27017` or an external MongoDB Atlas cluster)
-- Cloudinary Account (for handling image uploads)
+*Add screenshots of your application here to show off your UI! Replace the placeholder links with your actual image paths.*
 
-## Local Setup Instructions
+| Login & Authentication | The Main Feed |
+| :---: | :---: |
+| <img src="https://via.placeholder.com/400x250?text=Login+Page" alt="Login Screenshot" /> | <img src="https://via.placeholder.com/400x250?text=Main+Feed" alt="Feed Screenshot" /> |
+
+| Real-time Notifications | User Profile & Customization |
+| :---: | :---: |
+| <img src="https://via.placeholder.com/400x250?text=Notifications" alt="Notifications" /> | <img src="https://via.placeholder.com/400x250?text=User+Profile" alt="Profile" /> |
+
+---
+
+## ✨ Features
+
+- **🔐 Secure Authentication**: Robust JWT-based user login, registration, and session management.
+- **📰 Personalized Feed**: Algorithm-free feed showing posts exclusively from users you follow.
+- **⚡ Real-time Interactions**: Live notifications, instant messaging, and real-time feed updates powered by Socket.io.
+- **🖼️ Media Uploads**: Seamless and optimized image uploads managed securely via Cloudinary.
+- **💬 Interactive Posts**: Engage with content by liking, commenting, and saving posts to your personal collection.
+- **👤 Profile Customization**: Edit your avatar, update your bio, and manage your followers/following lists.
+- **📱 Responsive Design**: Fully responsive, mobile-first design built with Tailwind CSS, ensuring smooth scaling across all devices.
+- **🎨 Premium UI/UX**: Fluid animations (Framer Motion) and a carefully crafted color palette (warm neutrals, moss green).
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Routing**: React Router DOM
+- **Data Fetching**: Axios
+
+### Backend
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **Database**: MongoDB & Mongoose
+- **Real-time Engine**: Socket.io
+- **Authentication**: JSON Web Tokens (JWT) & bcrypt
+- **Media Storage**: Cloudinary (via Multer)
+
+---
+
+## 🚀 Local Setup Instructions
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+Before you begin, ensure you have met the following requirements:
+- **Node.js** (v18.0.0 or higher)
+- **MongoDB** (running locally on port `27017` or a MongoDB Atlas URI)
+- **Cloudinary Account** (Create a free account to handle image uploads)
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/himasree-d/chirp_social_media_app
+git clone https://github.com/himasree-d/chirp_social_media_app.git
 cd chirp_social_media_app
 \`\`\`
 
 ### 2. Install Dependencies
-The project is structured with a root `package.json` that handles installing both frontend and backend dependencies at once.
-Run this from the **root directory**:
+The project uses a root `package.json` to manage both the client and server. Run this from the root directory to install everything at once:
 \`\`\`bash
 npm install
 \`\`\`
 
-### 3. Setup Environment Variables
-You need to configure the backend environment variables. Navigate to the `server` directory and create a `.env` file:
+### 3. Environment Variables
+You will need to set up environment variables for the backend. Navigate to the `server` directory and create a `.env` file:
 \`\`\`bash
 cd server
-cp .env.example .env
+touch .env
 \`\`\`
 
-Inside the `server/.env` file, ensure the following variables are set:
-\`\`\`env
-PORT=5005
-MONGO_URI=mongodb://127.0.0.1:27017/Chirp
-JWT_SECRET=your_super_secret_jwt_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-\`\`\`
+Open the `server/.env` file and add the following keys. Make sure to replace the placeholder values with your actual credentials:
+
+| Variable | Description | Example Value |
+| :--- | :--- | :--- |
+| `PORT` | The port the backend server runs on | `5005` |
+| `MONGO_URI` | Your MongoDB connection string | `mongodb://127.0.0.1:27017/Chirp` |
+| `JWT_SECRET` | A secure random string for signing tokens | `your_super_secret_jwt_key_here` |
+| `CLOUDINARY_CLOUD_NAME` | Your Cloudinary Cloud Name | `dxxxxxx` |
+| `CLOUDINARY_API_KEY` | Your Cloudinary API Key | `1234567890` |
+| `CLOUDINARY_API_SECRET` | Your Cloudinary API Secret | `abC_defGHIJklmnop` |
 
 ### 4. Run the Application
-You can start both the React frontend and the Express backend simultaneously from the **root directory**:
+You can start both the React frontend and the Express backend simultaneously from the **root directory**.
+
+Open a terminal in the root `chirp_social_media_app` folder and run:
 \`\`\`bash
-# Run this from the root 'Chirp' directory
 npm run dev
 \`\`\`
 
 This single command will spin up:
-- **Frontend**: `http://localhost:5173`
-- **Backend API**: `http://localhost:5005/api`
+- **Frontend Development Server**: `http://localhost:5173`
+- **Backend API Server**: `http://localhost:5005/api`
 
-## Project Structure
-- `/client` - Contains the React/Vite frontend application.
-- `/server` - Contains the Node.js/Express backend API and MongoDB models.
-- `/jsp` - Contains a legacy Java Server Page (`public_profile.jsp`) for public profile viewing.
+---
+
+## 📁 Project Structure
+
+\`\`\`text
+chirp_social_media_app/
+├── client/                 # React Frontend (Vite)
+│   ├── src/
+│   │   ├── api/            # Axios instance and API calls
+│   │   ├── components/     # Reusable UI components (Feed, Layout, UI)
+│   │   ├── context/        # React Context (Auth, Notifications)
+│   │   ├── hooks/          # Custom React hooks
+│   │   ├── pages/          # Full page views (Home, Profile, Login)
+│   │   └── styles/         # Global CSS and Tailwind config
+├── server/                 # Node/Express Backend
+│   ├── controllers/        # Route logic and business rules
+│   ├── middleware/         # Auth verification, Multer upload config
+│   ├── models/             # Mongoose database schemas
+│   ├── routes/             # Express API routes
+│   └── server.js           # Express app & Socket.io initialization
+├── jsp/                    # Legacy Java Server Page (public profile)
+└── package.json            # Root configuration and concurrent scripts
+\`\`\`
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/himasree-d/chirp_social_media_app/issues).
