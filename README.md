@@ -1,6 +1,6 @@
-# Haven - Social Media Platform
+# Chirp - Social Media Platform
 
-Haven is a premium, real-time social platform built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. It focuses on a clean aesthetic (warm neutrals, moss green) and smooth user experiences.
+Chirp is a premium, real-time social platform built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. It focuses on a clean aesthetic (warm neutrals, moss green) and smooth user experiences.
 
 ## Features
 - **Secure Authentication**: JWT-based user login and registration.
@@ -49,7 +49,7 @@ cp .env.example .env
 Inside the `server/.env` file, ensure the following variables are set:
 \`\`\`env
 PORT=5005
-MONGO_URI=mongodb://127.0.0.1:27017/haven
+MONGO_URI=mongodb://127.0.0.1:27017/Chirp
 JWT_SECRET=your_super_secret_jwt_key
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
@@ -59,7 +59,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ### 4. Run the Application
 You can start both the React frontend and the Express backend simultaneously from the **root directory**:
 \`\`\`bash
-# Run this from the root 'haven' directory
+# Run this from the root 'Chirp' directory
 npm run dev
 \`\`\`
 
